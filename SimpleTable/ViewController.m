@@ -75,4 +75,25 @@
     return 78;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+//    UIAlertView *messageAlert = [[UIAlertView alloc] initWithTitle:@"Row Selected"
+//                                                           message:[recipes objectAtIndex:indexPath.row]
+//                                                          delegate:nil
+//                                                 cancelButtonTitle:@"OK"
+//                                                 otherButtonTitles:nil];
+//    [messageAlert show];
+
+    
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    
+    cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+
+}
+
+
 @end
