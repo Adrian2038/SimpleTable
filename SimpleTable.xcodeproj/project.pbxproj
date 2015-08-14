@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7CCCC41B7E341900DEF31C /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B7CCCC31B7E341900DEF31C /* recipes.plist */; };
 		8BC2F6561B7CD1A6008092D6 /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BC2F6461B7CD1A6008092D6 /* angry_birds_cake.jpg */; };
 		8BC2F6571B7CD1A6008092D6 /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BC2F6471B7CD1A6008092D6 /* creme_brelee.jpg */; };
 		8BC2F6581B7CD1A6008092D6 /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BC2F6481B7CD1A6008092D6 /* egg_benedict.jpg */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B7CCCC31B7E341900DEF31C /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
 		8BC2F6461B7CD1A6008092D6 /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake.jpg; sourceTree = "<group>"; };
 		8BC2F6471B7CD1A6008092D6 /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
 		8BC2F6481B7CD1A6008092D6 /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egg_benedict.jpg; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			children = (
 				8BC2F6451B7CD1A6008092D6 /* simpletable_image_pack */,
 				8BDC88441B7B8AB100FB2867 /* Info.plist */,
+				8B7CCCC31B7E341900DEF31C /* recipes.plist */,
 				8BDC88451B7B8AB100FB2867 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -271,6 +274,7 @@
 				8BC2F6631B7CD1A6008092D6 /* thai_shrimp_cake.jpg in Resources */,
 				8BC2F6671B7CD381008092D6 /* SimpleTableCell.xib in Resources */,
 				8BC2F6561B7CD1A6008092D6 /* angry_birds_cake.jpg in Resources */,
+				8B7CCCC41B7E341900DEF31C /* recipes.plist in Resources */,
 				8BDC884F1B7B8AB100FB2867 /* Main.storyboard in Resources */,
 				8BC2F65C1B7CD1A6008092D6 /* ham_and_egg_sandwich.jpg in Resources */,
 				8BC2F6621B7CD1A6008092D6 /* starbucks_coffee.jpg in Resources */,
