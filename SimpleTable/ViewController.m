@@ -128,8 +128,8 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
     [recipes removeObjectAtIndex:index];
     [thumbnails removeObjectAtIndex:index];
     [prepTime removeObjectAtIndex:index];
-//    
-//    NSLog(@"recipes' %@", recipes);
+
+    //    NSLog(@"recipes' %@", recipes);
 //    NSLog(@"thumbnail is %@", thumbnails);
 //    NSLog(@"preptime is %@", prepTime);
 }
